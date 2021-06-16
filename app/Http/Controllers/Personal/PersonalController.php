@@ -17,6 +17,7 @@ class PersonalController extends ApiController
      */
     public function index()
     {
+         // aqui
          try {
             $personal=DB::table('personal as p')
             ->join('prueba as pru','pru.fkid_personal','=','p.id_personal')->select('nombre','apellido','cedula','edad','dedicacion','pru.estado')
