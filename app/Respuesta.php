@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Respuesta extends Model
 {
 
-    use Notifiable;
+    //use Notifiable;
 
     const ACTIVAR= 'activo';
     const DESACTIVAR='inactivo';
